@@ -2,5 +2,5 @@
 .pyc
 __pycache__
 database.ini
-/kepegawaian_dev.sql
+*.sql
 /analisi_report.json

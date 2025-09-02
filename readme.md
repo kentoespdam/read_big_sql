@@ -30,7 +30,7 @@
 >
 > `python main.py backup.sql restore --db-host localhost --db-user root`
 
->**Dengan Skip Errors**
+>**Dengan Skip Errors** \
 > `python main.py large_dump.sql restore \
   --db-host localhost \
   --db-user root \

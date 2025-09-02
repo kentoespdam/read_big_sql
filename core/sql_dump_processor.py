@@ -210,6 +210,8 @@ class SQLDumpProcessor:
                             if self.args.skip_errors:
                                 logger.warning(f"Skipping error in statement: {e}")
                             else:
+                                logger.error(f"Error executing statement: {e}")
+                                logger.error(f"Failed Statement: {current_statement.strip()}")
                                 raise
 
                     current_statement = ""

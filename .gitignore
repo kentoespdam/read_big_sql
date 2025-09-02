@@ -1,0 +1,6 @@
+.venv
+.pyc
+__pycache__
+database.ini
+/kepegawaian_dev.sql
+/analisi_report.json
